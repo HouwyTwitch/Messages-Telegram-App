@@ -33,7 +33,7 @@ services:
   bot:
     build: ./bot
     environment:
-      - TELEGRAM_API_TOKEN=7355539668:AAGOjOIG92szYSYIdxPnkoW86jXV6cucOq0
+      - TELEGRAM_API_TOKEN=<Токен бота>
     depends_on:
       - web
 
