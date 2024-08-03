@@ -40,14 +40,14 @@
 1. **Клонируйте репозиторий:**
 
     ```sh
-    git clone https://github.com/yourusername/Web-app-with-FastAPI-Telegram-Bot-MongoDB-Redis-and-Nginx.git
-    cd Web-app-with-FastAPI-Telegram-Bot-MongoDB-Redis-and-Nginx
+    git clone https://github.com/HouwyTwitch/Messages-Telegram-App.git
+    cd Messages-Telegram-App
     ```
 
 2. **Создайте файл `.env` и установите необходимые переменные окружения:**
 
     ```env
-    TELEGRAM_API_TOKEN=your-telegram-bot-token
+    TELEGRAM_API_TOKEN=Ваш-токен-телеграм-бота
     ```
 
 3. **Соберите и запустите Docker контейнеры:**
