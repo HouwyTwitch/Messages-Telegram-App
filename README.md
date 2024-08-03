@@ -26,9 +26,8 @@
 ├── bot
 │   ├── bot.py
 │   └── Dockerfile
-├── web
+├── app
 │   ├── main.py
-│   ├── requirements.txt
 │   └── Dockerfile
 ├── nginx
 │   └── default.conf
