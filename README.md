@@ -40,22 +40,22 @@
 
 1. **Клонируйте репозиторий:**
 
-    \```sh
+    ```sh
     git clone https://github.com/yourusername/Web-app-with-FastAPI-Telegram-Bot-MongoDB-Redis-and-Nginx.git
     cd Web-app-with-FastAPI-Telegram-Bot-MongoDB-Redis-and-Nginx
-    \```
+    ```
 
 2. **Создайте файл `.env` и установите необходимые переменные окружения:**
 
-    \```env
+    ```env
     TELEGRAM_API_TOKEN=your-telegram-bot-token
-    \```
+    ```
 
 3. **Соберите и запустите Docker контейнеры:**
 
-    \```sh
+    ```sh
     sudo docker-compose up --build
-    \```
+    ```
 
 ## Использование
 
@@ -78,7 +78,7 @@
 
 **Ответ:**
 
-\```json
+```json
 [
   {
     "author": "Имя автора",
@@ -86,7 +86,7 @@
   },
   ...
 ]
-\```
+```
 
 ### POST `/api/v1/message/`
 
@@ -94,20 +94,20 @@
 
 **Запрос:**
 
-\```json
+```json
 {
   "author": "Имя автора",
   "content": "Содержимое сообщения"
 }
-\```
+```
 
 **Ответ:**
 
-\```json
+```json
 {
   "message": "Message received"
 }
-\```
+```
 
 ## Телеграм-бот
 
@@ -130,16 +130,16 @@
 
 1. **Установите Certbot:**
 
-    \```sh
+    ```sh
     sudo apt update
     sudo apt install certbot python3-certbot-nginx
-    \```
+    ```
 
 2. **Запустите Certbot для получения SSL сертификатов:**
 
-    \```sh
+    ```sh
     sudo certbot --nginx
-    \```
+    ```
 
 3. **Следуйте инструкциям для завершения настройки. Certbot автоматически настроит Nginx для использования полученных SSL сертификатов.**
 
